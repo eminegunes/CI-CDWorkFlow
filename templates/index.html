@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <form method="POST" action="/add">
+        <input type="text" name="task" placeholder="Yeni görev ekleyin..." required>
+        <button type="submit">Ekle</button>
+    </form>
+
+    <ul>
+        slm
+        <li>
+            cinim
+            <form method="POST" action="/delete/{{ task }}" style="display:inline;">
+                <button type="submit">Sil</button>
+            </form>
+        </li>
+        bay
+    </ul>
+</body>
+</html>
